@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name" : "Rubin Image Cycle",
+    "version": "1.0",
+    "data_collection_permissions" : [],
+    "properties" : {"background_position" : "center"},
+    "description": "Cycling images related to the Rubin Observatory",
+    "permissions": ["theme"],
+    "background": {
+        "scripts": ["background.js"]},
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "rubinobservatorytheme2@yahoo.com",
+            "data_collection_permissions" : {
+                "required" : ["none"]
+            }}},
+    "additionalProperties": false
+}
